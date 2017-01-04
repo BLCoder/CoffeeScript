@@ -27,8 +27,8 @@ peoplearray=[
       age:432
    };
    {
-   name:"Javed"
-   age:435
+      name:"Javed"
+      age:435
    }
 ]
 coffeeScript.insertAdjacentHTML('beforeend',"#{peoplearray[0].name+"<br>"+peoplearray[0].age}<br>")
