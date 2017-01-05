@@ -55,7 +55,6 @@ for employee,employIndex in employees
 
 if "Javed" in employees
    coffeeScript.insertAdjacentHTML('beforeend',"I Found Javed<br>")
-<<<<<<< HEAD
 
 i=1
 while(i+=1) <=200
@@ -147,5 +146,3 @@ sparky =new Dog("Sparky",534)
 sparky.sound="Wooooooof"
 sparky.sound2="Grtrtt"
 coffeeScript.insertAdjacentHTML('beforeend',"#{sparky.getInfo()}<br>")
-=======
->>>>>>> origin/master
