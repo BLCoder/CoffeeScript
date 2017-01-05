@@ -27,8 +27,8 @@ peoplearray=[
       age:432
    };
    {
-   name:"Javed"
-   age:435
+      name:"Javed"
+      age:435
    }
 ]
 coffeeScript.insertAdjacentHTML('beforeend',"#{peoplearray[0].name+"<br>"+peoplearray[0].age}<br>")
@@ -55,6 +55,7 @@ for employee,employIndex in employees
 
 if "Javed" in employees
    coffeeScript.insertAdjacentHTML('beforeend',"I Found Javed<br>")
+<<<<<<< HEAD
 
 i=1
 while(i+=1) <=200
@@ -146,3 +147,5 @@ sparky =new Dog("Sparky",534)
 sparky.sound="Wooooooof"
 sparky.sound2="Grtrtt"
 coffeeScript.insertAdjacentHTML('beforeend',"#{sparky.getInfo()}<br>")
+=======
+>>>>>>> origin/master
